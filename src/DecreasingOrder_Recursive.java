@@ -6,8 +6,9 @@ public class DecreasingOrder_Recursive {
             System.out.print(n);
             return;
         }
-        System.out.print(n + " ");
         basicRecursive(n-1);
+        System.out.print(n + " ");
+//        basicRecursive(n-1);
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
