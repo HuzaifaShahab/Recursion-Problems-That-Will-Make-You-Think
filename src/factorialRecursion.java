@@ -5,8 +5,8 @@ public class factorialRecursion {
         if (n==0){
             return 1 ;
         }
-         int fact = 1 ;
-         fact = fact * findFactorial(n-1) ;
+         int fact ;
+         fact = n * findFactorial(n-1) ;
          return fact ;
     }
     public static void main(String[] args) {
@@ -16,7 +16,5 @@ public class factorialRecursion {
 
             int factorial = findFactorial(n);
         System.out.println("Factorial Of A Given Number Is : "+factorial);
-
-
     }
 }
