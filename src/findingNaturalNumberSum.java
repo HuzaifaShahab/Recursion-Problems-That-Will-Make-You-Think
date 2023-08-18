@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class findingNaturalNumberSum {
     public static int naturalNumberSum (int n){
-        if (n==1){
+        if (n==1){         // Base Case
             return 1 ;
         }
         int sum = 0 ;
-        sum = n + naturalNumberSum(n-1);
+        sum = n + naturalNumberSum(n-1);      // Recursive Case
         return sum ;
     }
     public static void main(String[] args) {
