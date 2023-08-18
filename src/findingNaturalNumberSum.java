@@ -6,7 +6,7 @@ public class findingNaturalNumberSum {
             return 1 ;
         }
         int sum = 0 ;
-        sum = n + naturalNumberSum(n-1);      // Recursive Case
+        sum = n + naturalNumberSum(n-1);      // Recursive Case    --    Stack Analysis
         return sum ;
     }
     public static void main(String[] args) {
@@ -16,6 +16,7 @@ public class findingNaturalNumberSum {
 
             int sum = naturalNumberSum(n) ;
         System.out.println("Final Sum till "+n+" Value is : "+sum);
+        System.out.println("Final Sum Has Been calculated!");
 
 
     }
