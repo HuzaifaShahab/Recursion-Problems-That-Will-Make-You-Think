@@ -12,7 +12,7 @@ public class findingNaturalNumberSum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in) ;
         System.out.println("Hey Give Me Any Natural Number To Find Its Sum");
-            int n = sc.nextInt() ;
+            int n = sc.nextInt() ;  // input number
 
             int sum = naturalNumberSum(n) ;
         System.out.println("Final Sum till "+n+" Value is : "+sum);
