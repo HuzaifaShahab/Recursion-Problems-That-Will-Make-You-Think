@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class increasingOrder {
         public static void basicRecursive (int n){
-            if (n==1){
+            if (n==1){   // Base Case
                 System.out.print(n);
                 return;
             }
-            basicRecursive(n-1);
+            basicRecursive(n-1);   // Recursive Call
             System.out.print(n + " ");
 
         }
