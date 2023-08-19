@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class factorialRecursion {
     public static int findFactorial (int n){
-        if (n==0){
+        if (n==0){   // Base Case
             return 1 ;
         }
          int fact ;
-         fact = n * findFactorial(n-1) ;
+         fact = n * findFactorial(n-1) ;    // Recursive Call
          return fact ;
     }
     public static void main(String[] args) {
