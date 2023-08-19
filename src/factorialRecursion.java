@@ -14,7 +14,7 @@ public class factorialRecursion {
         System.out.println("Input Any Number To Find It's Factorial");
             int n = sc.nextInt() ;
 
-            int factorial = findFactorial(n);
+            int factorial = findFactorial(n); // Passing value
         System.out.println("Factorial Of A Given Number Is : "+factorial);
     }
 }
