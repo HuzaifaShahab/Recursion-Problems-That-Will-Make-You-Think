@@ -6,8 +6,8 @@ public class increasingOrder {
                 System.out.print(n);
                 return;
             }
-            basicRecursive(n-1);   // Recursive Call
-            System.out.print(n + " ");
+            basicRecursive(n-1);   // Recursive Call  --  Function calling ka stack bane ga.
+            System.out.print(n + " "); 
 
         }
         public static void main(String[] args) {
