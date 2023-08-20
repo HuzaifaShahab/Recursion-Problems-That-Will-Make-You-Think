@@ -6,7 +6,7 @@ public class increasingOrder {
                 System.out.print(n);
                 return;
             }
-            basicRecursive(n-1);   // Recursive Call  --  Function calling ka stack bane ga.
+            basicRecursive(n-1);      // Recursive Call  --  Function calling ka stack bane ga.
             System.out.print(n + " ");  // Printing On Console
 
         }
@@ -15,7 +15,7 @@ public class increasingOrder {
             System.out.println("Give me any single integer");
             int n = sc.nextInt();
 
-            basicRecursive(n);
+            basicRecursive(n);  // Passing values without reference.
         }
     }
 
