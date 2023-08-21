@@ -11,7 +11,7 @@ public class nthFibonacciPrinting {
         Scanner sc = new Scanner(System.in) ;
         System.out.println("Which Fibonacci Term You Want To Show");
             int n = sc.nextInt() ;
-            int fib = printFibonacci(n) ;
+            int fib = printFibonacci(n) ; // Passing values
         System.out.println(fib);
     }
 }
