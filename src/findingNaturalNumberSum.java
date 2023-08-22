@@ -4,10 +4,10 @@ public class findingNaturalNumberSum {
     public static int naturalNumberSum (int n){
         if (n==1){         // Base Case
             return 1 ;
-        }
+        }else {
         int sum = 0 ;
         sum = n + naturalNumberSum(n-1);      // Recursive Case    --    Stack Analysis
-        return sum ;
+        return sum ;}
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in) ;
