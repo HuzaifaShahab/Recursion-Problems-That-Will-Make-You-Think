@@ -6,7 +6,7 @@ public class findingNaturalNumberSum {
             return 1 ;
         }else {
         int sum = 0 ;
-        sum = n + naturalNumberSum(n-1);      // Recursive Case    --    Stack Analysis
+        sum = n + naturalNumberSum(n-1);      // Recursive Case        Stack Analysis
         return sum ;}
     }
     public static void main(String[] args) {
