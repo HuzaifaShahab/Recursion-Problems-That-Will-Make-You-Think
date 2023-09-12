@@ -19,7 +19,7 @@ public class lastOccurrenceOfElement {
         int [] array = {1,2,3,5,6,7,5,8,9} ;
 
         Scanner sc = new Scanner(System.in) ;
-        System.out.println("Give me a key");
+        System.out.println("Give me a key to find");
             int key = sc.nextInt () ;
 
             int occur = lastOccurrence(array,key,0) ;
