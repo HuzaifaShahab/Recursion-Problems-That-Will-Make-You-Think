@@ -23,6 +23,6 @@ public class lastOccurrenceOfElement {
             int key = sc.nextInt () ;
 
             int occur = lastOccurrence(array,key,0) ;
-            System.out.println("Last occurrence of an element is at index : "+occur);
+            System.out.println("Last occurrence of element is at index : "+occur);
     }
 }
