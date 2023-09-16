@@ -18,7 +18,7 @@ public class Tiling_Problem {
             int length = sc.nextInt() ;
 
             int totalWays = tilingProblem(length) ;
-        System.out.println("Total No. of ways that can be implement are : "+totalWays);
+        System.out.println("Total No.of ways that can be implement are : "+totalWays);
 
     }
 }
