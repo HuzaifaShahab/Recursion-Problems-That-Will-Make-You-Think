@@ -10,9 +10,9 @@ public class friendPairingProblem {
         }
 // Single
         int fnm1 = friendsPairing(n - 1);
-// In Pair
-//        int fnm2 = fnm1 * friendsPairing(n - 2);
-             return fnm1 ;
+// in Pair
+        int fnm2 = fnm1 * friendsPairing(n - 2);
+             return fnm1 + fnm2;
     }
     public static void main(String []args) {
         Scanner sc = new Scanner(System.in);
