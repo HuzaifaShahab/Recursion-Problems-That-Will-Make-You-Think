@@ -8,10 +8,11 @@ public class friendPairingProblem {
         if (n == 1 || n == 2) {
             return n;
         }
-
+// Single
         int fnm1 = friendsPairing(n - 1);
-        int fnm2 = fnm1 * friendsPairing(n - 2);
-             return fnm1 + fnm2;
+// In Pair
+//        int fnm2 = fnm1 * friendsPairing(n - 2);
+             return fnm1 ;
     }
     public static void main(String []args) {
         Scanner sc = new Scanner(System.in);
