@@ -9,7 +9,7 @@ public class Remove_Duplicate_In_String {
         }
 
         char currChar = string.charAt(index) ;
-        if (map[currChar - 'a']){
+        if (map[currChar - 'a']){ // If true
             removeDuplicate(string,index+1,newString,map);
         }
         else{
