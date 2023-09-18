@@ -13,7 +13,7 @@ public class Remove_Duplicate_In_String {
             removeDuplicate(string,index+1,newString,map);
         }
         else{
-            map[currChar-'a'] = true ;  // [currChar - 'a'] will give us actual index of that character.
+            map[currChar-'a'] = true ;  // [currChar - 'a'] will give us an actual index of that character.
 //            In this case Appending non-duplicate character into newString
             removeDuplicate(string,index+1,newString.append(currChar),map);
         }
