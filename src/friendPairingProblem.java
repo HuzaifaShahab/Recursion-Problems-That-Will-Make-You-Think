@@ -1,7 +1,6 @@
 //Given n friends, each one can remain single or can be paired up with some other friend.
 //Each friend can be paired only once. Find out the total number of ways in which friends
-//can remain single or can be paired up.
-
+//can remain single or can be paired up
 import java.util.Scanner;
 public class friendPairingProblem {
     public static int friendsPairing (int n) {
@@ -12,7 +11,7 @@ public class friendPairingProblem {
         int fnm1 = friendsPairing(n - 1);
 // in Pair
         int fnm2 = fnm1 * friendsPairing(n - 2);
-             return fnm1 + fnm2;
+             return fnm1 + fnm2 ;
     }
     public static void main(String []args) {
         Scanner sc = new Scanner(System.in);
